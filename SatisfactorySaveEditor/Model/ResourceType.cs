@@ -23,6 +23,21 @@ namespace SatisfactorySaveEditor.Model
         public static readonly List<ResourceType> RESOURCES = new List<ResourceType>()
         {
             new ResourceType(string.Empty, "Choose Item", 0),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C","Xmas Gift",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C","Xmas Branch",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C","Xmas Wreath",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C","Xmas Candy Cane",500),
+            new ResourceType("/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorCandyCane.BP_EquipmentDescriptorCandyCane_C","Xmas Candy Basher",1),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C","Xmas Deco red",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C","Xmas Deco Blue",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall3.Desc_XmasBall3_C","Xmas Deco Copper",200),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall4.Desc_XmasBall4_C","Xmas Deco Iron",200),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C","Xmas Deco Set",100),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C","Xmas Snow",500),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C","Xmas Wreath/Ring",100),
+            new ResourceType("/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C","Xmas Star",50),
+
+            new ResourceType("/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C","Copper Sheets",100),
             new ResourceType("/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C", "A.I. Limiter", 100),
             new ResourceType("/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C", "Alclad Aluminum Sheet", 100),
             new ResourceType("/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C", "Battery", 100),
